@@ -2,7 +2,7 @@
 import colors as c
 import time
 
-tenths = 1    
+seconds = 1    
 
 while True:
     time.sleep(1)

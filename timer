@@ -2,10 +2,12 @@
 import colors as c
 import time
 
-seconds = 1    
+hundredths = 1 
 
 while True:
-    time.sleep(1)
-    print(str(seconds) + 'seconds ')
-    seconds = seconds + 1
-
+    print(c.clear)
+    print(c.red + 'i love donuts' + c.reset)
+    print(hundredths)
+    hundredths += 1
+    time.sleep(.01)
+    if hundredrths == 100:

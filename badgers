@@ -2,17 +2,20 @@
 import time
 import colors as c
         
-    
-for count in range(4):
+while True: 
+    for count in range(4):
+
+        print(c.clear)
+        for count in range(12):
+            print("badgers!")
+            time.sleep(0.4)  
+
+        for count in range(2):
+            print('muuussshhhrrrooooom')
+            time.sleep(0.8)
+
 
     print(c.clear)
-    for count in range(12):
-        print("badgers!")
-        time.sleep(0.4)  
-
-    for count in range(2):
-        print('muuussshhhrrrooooom')
-        time.sleep(0.8)
-
-
-
+    print('ssssssssssssnnnnnnnnnnnnnnnaaaaaaaaaaaakkkkkkkkkkkkkkeeeeeeeeeeee')
+    time.sleep(6)
+        

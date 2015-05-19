@@ -9,5 +9,4 @@ while True:
     print(c.red + 'i love donuts' + c.reset)
     print(hundredths)
     hundredths += 1
-    time.sleep(.01)
-    if hundredrths == 100:
+    time.sleep(0.1)

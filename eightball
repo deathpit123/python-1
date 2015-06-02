@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+import random
+import colors as c
+
+print(c.red + '''
+welcome to magic eight ball!
+enter your question below
+''' + c.reset)
+answers = [
+    'yes',
+    'no',
+    'maybe',
+    'good',
+    'shutup',
+    'go die in a hole',
+    'get of this computer',
+    'stop',
+    'sorry not working',
+    'im having a good break',
+    'not a good time right now',
+    'dont ask agin',
+    'what',
+    'what do you think',
+    'i think that my boss is calling me',
+    'go read',
+    'say bye to that',
+    'go drive',
+    'go take a hike',
+    'drive of a cliff',
+]
+
+while True:
+    question=input('-->').strip().lower() 
+    answer = random.choice(answers)
+    print(answer)
+    if question == 'poop':
+        print('Ooh dats nice... ')

@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+import colors as c
+
+
+print(c.red + "hi" + c.blue +" what" + c.red +" is" + c.blue +" your"
+        + c.red +" name" + c.reset)
+name = input('--> ' + c.magenta)
+print(c.yellow +'how are you '+ name)
+good = input('--> ' + c.red)
+print(c.blue + 'what sport is your favorite '+ name)
+baseball = input('--> ' + c.red)
+print(c.blue +' how old are you '+ name)
+age = input('--> ' + c.red)
+print(c.blue + 'do you have a house '+ name)
+yes = input('--> ' + c.red)
+print(c.blue + 'are you a good person '+ name)
+yes = input('-->' + c.red)
+print(c.blue +' do i like rob '+ name)
+yes = input('--> ' + c.red)

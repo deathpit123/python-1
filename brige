@@ -14,6 +14,6 @@ def prompt(question):
 
 name = prompt(c.blue + 'what is your name?')
 quest = prompt('what is your quest?')
-if name == 'ian':
+if name == 'ian' or name == 'drake':
     color = prompt(c.yellow + 'what is favorite color')
 

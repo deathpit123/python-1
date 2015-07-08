@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+import colors as c
+
+
+from utils import ask
+
+print(c.clear + c.blue +"""welcome to madlibs.
+enter your answers.
+""")
+
+text = '''
+you will die in {female_celebrity} hand's.the next she
+will make out with you in a {vehicle}.next weak she finds 
+another {boy} in his van.
+'''
+
+words = {
+    "female_celebrity" : {},
+    "vehicle" : {},
+    "boy" : {}
+}
+
+
+
+answers = {}
+
+for key in words:
+    answer = ask("Enter " + key + ": ")
+

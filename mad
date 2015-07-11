@@ -10,14 +10,28 @@ enter your answers.
 
 text = '''
 you will die in {female celebrity} hand's.the next she
-will make out with you in a {vehicle}.next weak she finds 
-another {boy} in his van.
+will make out with you in a {vehicle}.in the rain she loves to pertekt {person}.
+on the beach she likes to take {wether} walks on the beach.
+now she will find a {pro golfer} will hitt robby in the head.
+next she finds a {surfer} and right when he goes there is a shark
+so he rides past {name} and he gets bite.then she come and 
+dumpes you dumps and finds anther {person} how she rilly likes.
+then she gets a bb gun and shoots crap out of my dead bady.
+now she pick up you dead body and feeds you liver to the villigers.
+well thats the end so MOVE YOU BUTT OUT OF THIS {place}.
 '''
+
 
 words = {
     "female celebrity" : None,
     "vehicle" : None,
-    "boy" : None
+    "person" :None,
+    "wether" :None,
+    "pro grolfer" :None,
+    "surfer" :None,
+    "name" :None,
+    "person" :None,
+    "place" :None
 }
 
 for key in words:

@@ -9,21 +9,20 @@ enter your answers.
 """)
 
 text = '''
-you will die in {female_celebrity} hand's.the next she
+you will die in {female celebrity} hand's.the next she
 will make out with you in a {vehicle}.next weak she finds 
 another {boy} in his van.
 '''
 
 words = {
-    "female_celebrity" : {},
-    "vehicle" : {},
-    "boy" : {}
+    "female celebrity" : None,
+    "vehicle" : None,
+    "boy" : None
 }
-
-
-
-answers = {}
 
 for key in words:
     answer = ask("Enter " + key + ": ")
+    words[key] = answer
+
+print(text.format(**words))
 

@@ -7,15 +7,15 @@ while True:
 
         print(c.clear)
         for count in range(12):
-            print(c.magenta"badgers!")
+            print(c.magenta + "badgers!")
             time.sleep(0.4)  
 
         for count in range(2):
-            print(c.red'muuussshhhrrrooooom')
+            print(c.red + 'muuussshhhrrrooooom')
             time.sleep(0.8)
 
 
     print(c.clear)
-    print(c.yellow'ssssssssssssnnnnnnnnnnnnnnnaaaaaaaaaaaakkkkkkkkkkkkkkeeeeeeeeeeee')
+    
     time.sleep(6)
         

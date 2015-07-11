@@ -5,7 +5,7 @@ import colors as c
 
 def ask(question):
     print(question)
-    answer = input('-->')
+    answer = input('-->').lower().strip()
     return answer
 
 

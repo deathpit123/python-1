@@ -51,7 +51,6 @@ sides.append('''
  -------
 ''')
 
-
 import random
 
 while True:
